@@ -1,1 +1,1 @@
-# sikhism.github.io
+# http://sikhism.github.io

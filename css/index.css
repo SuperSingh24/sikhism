@@ -1,0 +1,99 @@
+body {
+	margin: 0;
+}
+
+header.sticky {
+	position: sticky;
+	top: 0;
+	z-index: 1;
+}
+
+header {
+	background: #FF6666;
+	padding: 5px 5px 0 5px;
+}
+
+header img {
+	margin: 0 10px 0 5px;
+	height: 38px;
+	width: 50px;
+	display: inline-block;
+}
+
+nav ul {
+	display: inline-block;
+	margin: 0;
+}
+
+nav ul li {
+	font-family: arial;
+	border-radius: 5px;
+	background: #FF9999;
+	padding: 5px 10px;
+	margin: 5px 5px 5px 0;
+	display: inline-block;
+	list-style-type: none;
+	letter-spacing: 4px;
+	text-align: center;
+}
+
+li.currentpage {
+	background: #F80000;
+}
+
+nav ul li a {
+	display: inline-block;
+	color: white;
+	text-decoration: none;
+}
+
+div img {
+	margin: 0;
+	padding: 0;
+	opacity: 1.0;
+}
+
+div img:hover {
+	opacity: 0.5;
+}
+
+.background {
+	position: absolute;
+}
+
+.centre {
+	position: absolute;
+    left: 0;
+    top: 35%;
+    width: 100%;
+    text-align: center;
+    font-size: 50px;
+    font-family: arial;
+    color: #FF0000;
+}
+
+figure {
+	display: inline-block;
+	float: left;
+}
+
+figure img {
+	width: 625px;
+	height: 416px;
+}
+
+figure figcaption strong {
+	text-align: center;
+	color: #FF0000;
+	font-family: Century Gothic;
+	font-size: 20px;
+}
+
+p {
+	margin-right: 15px;
+	padding-left: 0;
+	font-family: Century Gothic;
+	font-size: 15px;
+	text-align: justify;
+}
+
